@@ -1,0 +1,5 @@
+module Clibharfbuzz [system] {
+  header "shim.h"
+  link "harfbuzz"
+  export *
+}
